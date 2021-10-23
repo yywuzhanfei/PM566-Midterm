@@ -55,43 +55,7 @@ About 1.1271885 % data was missing, which is tolerable
 
 #### Statistics summary
 
-``` r
-terrorism %>%
-  summary()
-```
-
-    ##       Year          Month             Day           Group          
-    ##  Min.   :1970   Min.   : 0.000   Min.   : 0.00   Length:181691     
-    ##  1st Qu.:1991   1st Qu.: 4.000   1st Qu.: 8.00   Class :character  
-    ##  Median :2009   Median : 6.000   Median :15.00   Mode  :character  
-    ##  Mean   :2003   Mean   : 6.467   Mean   :15.51                     
-    ##  3rd Qu.:2014   3rd Qu.: 9.000   3rd Qu.:23.00                     
-    ##  Max.   :2017   Max.   :12.000   Max.   :31.00                     
-    ##                                                                    
-    ##    Country             Region             State               City          
-    ##  Length:181691      Length:181691      Length:181691      Length:181691     
-    ##  Class :character   Class :character   Class :character   Class :character  
-    ##  Mode  :character   Mode  :character   Mode  :character   Mode  :character  
-    ##                                                                             
-    ##                                                                             
-    ##                                                                             
-    ##                                                                             
-    ##   Attacktype         Targettype           Weapon               Kill         
-    ##  Length:181691      Length:181691      Length:181691      Min.   :   0.000  
-    ##  Class :character   Class :character   Class :character   1st Qu.:   0.000  
-    ##  Mode  :character   Mode  :character   Mode  :character   Median :   0.000  
-    ##                                                           Mean   :   2.403  
-    ##                                                           3rd Qu.:   2.000  
-    ##                                                           Max.   :1570.000  
-    ##                                                           NA's   :10313     
-    ##      Wound         
-    ##  Min.   :   0.000  
-    ##  1st Qu.:   0.000  
-    ##  Median :   0.000  
-    ##  Mean   :   3.168  
-    ##  3rd Qu.:   2.000  
-    ##  Max.   :8191.000  
-    ##  NA's   :16311
+Everything seems to be normal.
 
 ## Data Visualization
 

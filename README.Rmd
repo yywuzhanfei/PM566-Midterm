@@ -90,10 +90,12 @@ terrna <- terrorism %>%
 About `r terrna / 181691 / 13 * 100` % data was missing, which is tolerable
 
 #### Statistics summary
-```{r}
+```{r include=FALSE}
 terrorism %>%
   summary()
 ```
+
+Everything seems to be normal.
 
 ## Data Visualization
 
